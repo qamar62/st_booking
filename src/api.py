@@ -3,10 +3,10 @@ import requests
 from datetime import datetime
 
 # Constants
-TEST_TOKEN_URL = 'http://127.0.0.1:8000/api/token/'
-TEST_API_URL = 'http://127.0.0.1:8000/api/tours'
-USERNAME = 'qamar'
-PASSWORD = 'Teacher@62'
+TEST_TOKEN_URL = st.secerts['TEST_TOKEN_URL']
+TEST_API_URL = st.secerts['TEST_API_URL']
+USERNAME = st.secerts['UERNAME']
+PASSWORD = st.secerts['PASSWORD']
 
 
 def get_jwt_token():
